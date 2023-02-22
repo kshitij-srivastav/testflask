@@ -1,5 +1,6 @@
 import uuid
 from flask import Flask
+
 instance_id = uuid.uuid4().hex
 app = Flask(__name__)
 
